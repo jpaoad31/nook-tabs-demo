@@ -1,6 +1,8 @@
-const bugFolder = './images/bugs';
-const fishFolder = './images/fish';
-const seaCreaturesFolder = './images/sea-creatures';
+import * as data from "./insects.js";
+
+const bugFolder = './images/bugs/';
+const fishFolder = './images/fish/';
+const seaCreaturesFolder = './images/sea-creatures/';
 
 const creatures = [];
 
@@ -13,10 +15,10 @@ creatures[5] = {type: "sea creature", name: "Lobster", blurb: "I got a lobster! 
 
 const image = document.getElementById("mainImage");
 
-let sel = Math.floor(Math.random() * 6);
+let sel = Math.floor(Math.random() * 80);
 
 let creature = creatures[sel];
 
-document.getElementById("creature_image").src = creature.src;
-document.getElementById("creature_name").innerText = creature.name;
-document.getElementById("creature_blurb").innerText = creature.blurb;
+document.getElementById("creature_image").src = bugFolder.concat(data.insects[sel].src);
+document.getElementById("creature_name").innerText = data.insects[sel].name;
+document.getElementById("creature_blurb").innerText = data.insects[sel].blurb;
