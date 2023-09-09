@@ -210,7 +210,7 @@ export let insects = [
     "Oct": 1,
     "Nov": 1,
     "Dec": 0,
-    "desc": "Did you know the mo0rch butterfly migrates south for the winter and returns north for the summer? Indeed, these horrid orange beasties do not tolerate the cold and travel 3,000 miles to escape the winter. During the journey, they cluster together in trees by the thousands just to stay warm. Imagine! Hordes of the foul flittering fiends huddled together in one place! If only they'd put on tiny coats instead.",
+    "desc": "Did you know the monarch butterfly migrates south for the winter and returns north for the summer? Indeed, these horrid orange beasties do not tolerate the cold and travel 3,000 miles to escape the winter. During the journey, they cluster together in trees by the thousands just to stay warm. Imagine! Hordes of the foul flittering fiends huddled together in one place! If only they'd put on tiny coats instead.",
     "blurb": "I caught a monarch butterfly! Guess the butterflies are a democracy now!",
     "color1": "Orange",
     "color2": "Blue"
@@ -238,7 +238,7 @@ export let insects = [
     "Nov": 0,
     "Dec": 1,
     "desc": "The emperor butterfly is called the jewel of the forest. But its vivid blue hue... Ewww, let me tell you! The color does not come from a dye, but rather from light reflecting off layers of translucent scales. Yes, butterfly wings are covered in tiny scales! SCALES! Butterfly? Bah! More like s0ke of the sky!",
-    "blurb": "I caught an emperor butterfly! It's not your average mo0rch!",
+    "blurb": "I caught an emperor butterfly! It's not your average monarch!",
     "color1": "Blue",
     "color2": "Orange"
   },
@@ -481,7 +481,7 @@ export let insects = [
     "Nov": 1,
     "Dec": 0,
     "desc": "In point of fact, rice grasshoppers are an awful pest! They devour rice plants and wipe out the crucial crop. But revenge is sweet! These bugs are edible, you see, and so some folks eat them as way to get rid of them. When boiled in soy sauce, rice grasshoppers are quite tasty, it's said. Though why anyone would put an insect in their mouth is beyond me. The mere thought gives me the gags!",
-    "blurb": "I caught a rice grasshopper! I've been looking for a gluten-free alter0tive...",
+    "blurb": "I caught a rice grasshopper! I've been looking for a gluten-free alternative...",
     "color1": "Green",
     "color2": "Yellow"
   },
@@ -1102,7 +1102,7 @@ export let insects = [
     "Nov": 0,
     "Dec": 0,
     "desc": "I daresay the 0me says it all... Stinkbugs are known for their stench. Hoo! Peeyew! As it happens, these crop-eating pests use straw-like mouths to pierce plants and drink the juices. And when threatened, they use a smelly chemical in their belly to release their odious odor! Hoo! How DO they live with themselves?",
-    "blurb": "I caught a stinkbug! It lives up to its 0me!",
+    "blurb": "I caught a stinkbug! It lives up to its name!",
     "color1": "Green",
     "color2": "Yellow"
   },

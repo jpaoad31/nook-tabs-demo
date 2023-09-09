@@ -16,9 +16,26 @@ creatures[5] = {type: "sea creature", name: "Lobster", blurb: "I got a lobster! 
 const image = document.getElementById("mainImage");
 
 let sel = Math.floor(Math.random() * 80);
+let len = data.insects.length;
+let creature = data.insects[sel];
 
-let creature = creatures[sel];
+var i = 0;
 
-document.getElementById("creature_image").src = bugFolder.concat(data.insects[sel].src);
-document.getElementById("creature_name").innerText = data.insects[sel].name;
-document.getElementById("creature_blurb").innerText = data.insects[sel].blurb;
+updateInsect();
+
+var intervalID = window.setInterval(updateInsect, 5000);
+
+function updateInsect() {
+
+	if (i >= 80) {
+		i = 0;
+	}
+
+	let creature = data.insects[i];
+
+	document.getElementById("creature_image").src = bugFolder.concat(creature.src);
+	document.getElementById("creature_name").innerText = creature.name;
+	document.getElementById("creature_blurb").innerText = creature.blurb;
+
+	i++
+}
