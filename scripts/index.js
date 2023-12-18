@@ -1,11 +1,12 @@
+// actual array of insects
 import * as data from "./insects.js";
 
 const bugFolder = './images/bugs/';
 const fishFolder = './images/fish/';
 const seaCreaturesFolder = './images/sea-creatures/';
 
+// Demo Array of Creatures
 const creatures = [];
-
 creatures[0] = {type: "bug", name: "Agrias butterfly", blurb: "I caught an agrias butterfly! I wonder if it finds me disagrias-able?", src: "./images/bugs/agrias_butterfly.png"};
 creatures[1] = {type: "bug", name: "Giant cicada", blurb: "I caught a giant cicada! I guess it's PRETTY big...", src: "./images/bugs/giant_cicada.png"};
 creatures[2] = {type: "fish", name: "Anchovy", blurb: "I caught an anchovy! Stay away from my pizza!", src: "./images/fish/anchovy.png"};
@@ -15,6 +16,7 @@ creatures[5] = {type: "sea creature", name: "Lobster", blurb: "I got a lobster! 
 
 const image = document.getElementById("mainImage");
 
+// choose a creature (index) to display
 let sel = Math.floor(Math.random() * 80);
 let len = data.insects.length;
 let creature = data.insects[sel];
@@ -25,6 +27,7 @@ updateInsect();
 
 //var intervalID = window.setInterval(updateInsect, 1000);
 
+// update the page elements with data for the new insect
 function updateInsect() {
 
 	if (i >= 80) {
