@@ -1,4 +1,4 @@
-# nook-tabs-demo
+# nook-tabs-demo by John Adams
 
 View at [https://jpaoad31.github.io/nook-tabs-demo/](https://jpaoad31.github.io/nook-tabs-demo/)
 
