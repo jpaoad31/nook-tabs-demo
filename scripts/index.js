@@ -19,7 +19,7 @@ let sel = Math.floor(Math.random() * 80);
 let len = data.insects.length;
 let creature = data.insects[sel];
 
-var i = 0;
+//var i = 0;
 
 updateInsect();
 
