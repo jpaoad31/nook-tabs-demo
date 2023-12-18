@@ -5,7 +5,7 @@ const bugFolder = './images/bugs/';
 const fishFolder = './images/fish/';
 const seaCreaturesFolder = './images/sea-creatures/';
 
-// Demo Array of Creatures
+// demo array of creatures
 const creatures = [];
 creatures[0] = {type: "bug", name: "Agrias butterfly", blurb: "I caught an agrias butterfly! I wonder if it finds me disagrias-able?", src: "./images/bugs/agrias_butterfly.png"};
 creatures[1] = {type: "bug", name: "Giant cicada", blurb: "I caught a giant cicada! I guess it's PRETTY big...", src: "./images/bugs/giant_cicada.png"};
@@ -20,8 +20,6 @@ const image = document.getElementById("mainImage");
 let sel = Math.floor(Math.random() * 80);
 let len = data.insects.length;
 let creature = data.insects[sel];
-
-//var i = 0;
 
 updateInsect();
 
