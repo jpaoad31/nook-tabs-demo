@@ -28,15 +28,8 @@ updateInsect();
 // update the page elements with data for the new insect
 function updateInsect() {
 
-	if (i >= 80) {
-		i = 0;
-	}
-
-	let creature = data.insects[i];
-
 	document.getElementById("creature_image").src = bugFolder.concat(creature.src);
 	document.getElementById("creature_name").innerText = creature.name;
 	document.getElementById("creature_blurb").innerText = creature.blurb;
 
-	i++
 }
