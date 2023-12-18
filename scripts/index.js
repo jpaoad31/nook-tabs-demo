@@ -23,7 +23,7 @@ var i = 0;
 
 updateInsect();
 
-var intervalID = window.setInterval(updateInsect, 1000);
+//var intervalID = window.setInterval(updateInsect, 1000);
 
 function updateInsect() {
 
