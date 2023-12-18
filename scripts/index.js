@@ -17,8 +17,8 @@ creatures[5] = {type: "sea creature", name: "Lobster", blurb: "I got a lobster! 
 const image = document.getElementById("mainImage");
 
 // choose a creature (index) to display
-let sel = Math.floor(Math.random() * 80);
 let len = data.insects.length;
+let sel = Math.floor(Math.random() * len);
 let creature = data.insects[sel];
 
 updateInsect();
